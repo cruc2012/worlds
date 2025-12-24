@@ -3,22 +3,22 @@ const computers = [
     name: "4 bit calculator built in Minecraft Java",
     description: "A simple 4 bit calculator using only redstone",
     world: "Java Edition",
-    image: "/images/3.png",
-    download: "https://cruc2012.github.io/worlds/piano.zip"
+    image: "https://cruc2012.github.io/worlds/images/3.png",
+    download: "https://cruc2012.github.io/worlds/worlds/3.zip"
   },
 {
     name: "Music Machine using just redstone in Minecraft java",
     description: "Redstone music machine that plays songs",
     world: "Java Edition",
-    image: "/images/2.png",
-    download: "https://cruc2012.github.io/worlds/piano.zip"
+    image: "https://cruc2012.github.io/worlds/images/2.png",
+    download: "https://cruc2012.github.io/worlds/worlds/2.zip"
   },
   {
     name: "Working piano in Minecraft Java",
     description: "Playable piano made in Minecraft Java",
     world: "Java Edition",
-    image: "/images/1.png",
-    download: "https://cruc2012.github.io/worlds/piano.zip"
+    image: "https://cruc2012.github.io/worlds/images/1.png",
+    download: "https://cruc2012.github.io/worlds/worlds/1.zip"
   }
 ];
 
@@ -43,3 +43,4 @@ computers.forEach(pc => {
 
   list.appendChild(card);
 });
+
