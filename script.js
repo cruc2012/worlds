@@ -43,4 +43,3 @@ computers.forEach(pc => {
 
   list.appendChild(card);
 });
-
