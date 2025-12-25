@@ -90,7 +90,7 @@ main {
 }
 
 /* AD SECTION */
-.ad {
+.server {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -99,7 +99,7 @@ main {
   text-align: center;
 }
 
-.ad a {
+.server a {
   display: block;
   text-decoration: none;
   color: white;
@@ -107,13 +107,13 @@ main {
 }
 
 @media (hover: hover) {
-  .ad a:hover {
+  .server a:hover {
     transform: scale(1.03);
     box-shadow: 0 0 15px rgba(0, 255, 153, 0.4);
   }
 }
 
-.ad img {
+.server img {
   width: 100%;
   max-width: 1200px;
   aspect-ratio: 1200 / 205;
@@ -122,13 +122,13 @@ main {
   margin-bottom: 12px;
 }
 
-.ad h2 {
+.server h2 {
   margin: 0 0 6px;
   color: #00ff99;
   font-size: 18px;
 }
 
-.ad p {
+.server p {
   margin: 0;
   font-size: 14px;
   color: #ccc;
@@ -141,3 +141,4 @@ footer {
   background: #1f1f1f;
   margin-top: 12px;
 }
+
