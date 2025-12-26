@@ -1,4 +1,11 @@
 const computers = [
+        {
+    name: "My newest user friendly redstone calculator built in Minecraft Java",
+    description: "A simple easy to use calculaotr that can do addition and subtraction",
+    world: "Java Edition",
+    image: "https://cruc2012.github.io/worlds/images/4.png",
+    download: "https://cruc2012.github.io/worlds/worlds/4.zip"
+  },
     {
     name: "4 bit calculator built in Minecraft Java",
     description: "A simple 4 bit calculator using only redstone",
@@ -43,3 +50,4 @@ computers.forEach(pc => {
 
   list.appendChild(card);
 });
+
